@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SokoNdogo</string>
+
+    <!-- Strings for On Boarding Screen -->
+
+    <!--Titles-->
+    <string name="first_slide_title">SokoNdogo</string>
+    <string name="second_slide_title">Convenient prices</string>
+    <string name="third_slide_title">Meat delicacies</string>
+    <string name="fourth_slide_title">Fruits and much more</string>
+    <!--Descriptions-->
+    <string name="first_slide_desc">We bring the market to you. Purchase all your Deli items from the comfort of your home. </string>
+    <string name="second_slide_desc">No need of spending more than necessary. Our prices are fixed to suit the pocket of the common mwananchi.</string>
+    <string name="third_slide_desc">Receive first grade meat from our trusted retailers who have the most vast variety of meat to choose from.</string>
+    <string name="fourth_slide_desc">We provide to you various products ranging from fruits,groceries to various grain and legume products.  </string>
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+
+<!--    Order Activity message-->
+    <string name="order_info">You are about to order the product you selected.If you wish to receive the product, click the button below to send it to you desired location for delivery.</string>
+
+
+<!--    This is for contact details-->
+    <string name="contact_details">Please fill in your contact details below:-</string>
+    <string name="delivery_details">Your delivery will be made from the nearest soko. Payment is expected on delivery.</string>
+    <string name="thanks_details">Thank you for using SokoNdogo App</string>
+
+</resources>

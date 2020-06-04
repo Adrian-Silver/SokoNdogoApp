@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashScreen">
+
+
+    <ImageView
+        android:id="@+id/img_top_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/groceryicon" />
+
+    <TextView
+        android:id="@+id/tv_bounce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_margin="30dp"
+        android:text="SokoNdogo App" />
+
+    <ImageView
+        android:id="@+id/img_bottom_top"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/groceryicon" />
+</LinearLayout>
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".SplashScreen"-->
+<!--    android:background="@color/ic_trolley_background"-->
+<!--   >-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="300dp"-->
+<!--            android:src="@mipmap/ic_trolley"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:scaleType="centerInside"-->
+<!--            android:layout_marginTop="50dp" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:fontFamily="sans-serif-black"-->
+<!--            android:gravity="center"-->
+<!--            android:text="SokoNdogo"-->
+<!--            android:textColor="@color/colorText"-->
+<!--            android:textSize="25sp"-->
+<!--            android:layout_marginTop="50dp"/>-->
+
+
+<!--    </LinearLayout>-->
+<!--</LinearLayout>-->

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Vegetables">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vegetables"
+        android:padding="10sp"
+        android:textSize="30sp"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/potatoes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:text="Potatoes"
+                    android:textSize="25sp"
+                    android:layout_margin="10sp" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/potatoes"
+                    />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/cabbage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:text="Cabbage"
+                    android:textSize="25sp"
+                    android:layout_margin="10sp" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/cabbage"
+                    />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/carrots"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:text="Carrots"
+                    android:textSize="25sp"
+                    android:layout_margin="10sp" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/carrot"
+                    />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/hoho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:text="Hoho"
+                    android:textSize="25sp"
+                    android:layout_margin="10sp" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/hoho"
+                    />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pumpkins"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:text="Pumpkins"
+                    android:textSize="25sp"
+                    android:layout_margin="10sp" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/pumpkins"
+                    />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</LinearLayout>

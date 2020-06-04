@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserDashboard">
+
+    <RelativeLayout
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp" >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SokoNdogo"
+                    android:textSize="35sp"
+                    android:layout_margin="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SokoNdogo"
+                    android:textSize="35sp"
+                    android:layout_margin="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp" >
+
+
+                <TextView
+                    android:id="@+id/category_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Categories"
+                    android:textSize="30sp"
+                    android:layout_margin="10dp"
+                    android:onClick="category_text"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="left" />
+
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:id="@+id/veg_board"
+                    android:layout_width="170dp"
+                    android:layout_height="280dp"
+                    android:paddingTop="10dp"
+                    android:background="@color/colortextbg"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vegetables and Fruits"
+                        android:textSize="25sp"
+                        android:textAllCaps="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="sans-serif-black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Get your vegetables and fruits at the best prices"
+                        android:layout_margin="10dp"
+                        android:textAllCaps="true"
+                        android:fontFamily="sans-serif-black" />
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rec_veg_fruits"
+                    android:layout_width="wrap_content"
+                    android:layout_height="280dp"
+                    android:layout_toRightOf="@id/veg_board" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:id="@+id/grains_board"
+                    android:layout_width="170dp"
+                    android:layout_height="280dp"
+                    android:paddingTop="10dp"
+                    android:background="@color/colortextbg"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Grains and Meat"
+                        android:textSize="25sp"
+                        android:textAllCaps="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="sans-serif-black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Get your Meat and Grains at the best prices"
+                        android:layout_margin="10dp"
+                        android:textAllCaps="true"
+                        android:fontFamily="sans-serif-black" />
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rec_grains_meat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="280dp"
+                    android:layout_toRightOf="@id/grains_board" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

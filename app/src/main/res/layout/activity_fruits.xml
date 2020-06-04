@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fruits">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fruits"
+        android:padding="10sp"
+        android:textSize="30sp"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/apples"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:text="Apples"
+                    android:textSize="25sp"
+                    android:layout_margin="10sp" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/apple"
+                    />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/avocado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:text="Avocado"
+                    android:textSize="25sp"
+                    android:layout_margin="10sp" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/avocado"
+                    />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/bananas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:text="Bananas"
+                    android:textSize="25sp"
+                    android:layout_margin="10sp" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/bananas"
+                    />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/oranges"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:text="Oranges"
+                    android:textSize="25sp"
+                    android:layout_margin="10sp" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/oranges"
+                    />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/watermelon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:text="Watermelon"
+                    android:textSize="25sp"
+                    android:layout_margin="10sp" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/watermelon"
+                    />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
